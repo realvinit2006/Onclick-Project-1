@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskOne</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Task1.css">
+   
+</head>
+<body>
+    <div id="clickbutton">
+        <button id="button1" onclick="showing()">Click Me</button>
+    </div>
+    <div id="openingbox">
+        <i class="fa-regular fa-circle-xmark" onclick="hiding()"></i>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium cum ut quam ullam saepe ex! Laudantium ipsum maxime quod eaque saepe ea, explicabo deserunt, tempore eius cumque nisi deleniti mollitia.</p>
+    </div>
+
+
+    <script>
+     function showing()
+        {
+            let cli=document.querySelector("#openingbox");
+            cli.style="visibility:visible";
+        }
+
+     function hiding()
+        {
+            let hid=document.querySelector("#openingbox");
+            hid.style="visibility:hidden";
+        }
+    </script>
+    
+</body>
+</html>

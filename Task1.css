@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#clickbutton button
+{
+margin: 1rem;
+border: 1px solid pink;
+border-radius: 10px;
+background-color: pink;
+height: 40px;
+width: 100px;
+font-size: 18px;
+}
+#openingbox
+{
+    margin:auto;
+border: 1px solid pink;
+border-radius: 10px;
+background-color: pink;
+height: 200px;
+width: 400px;
+font-size: 18px;
+text-align: center;
+position: relative;
+visibility: hidden;
+}
+#openingbox p
+{
+   margin: 2.5rem 1rem;
+}
+.fa-regular
+{
+    position: absolute;
+    top: 22px;
+    right: 28px;
+}
